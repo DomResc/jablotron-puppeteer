@@ -1,0 +1,23 @@
+{
+  "name": "jablotron-puppeteer",
+  "version": "0.0.1",
+  "description": "Automate the use of Jablotron Alarm with Puppeteer for use with Alexa, Google Home, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DomResc/jablotron-puppeteer.git"
+  },
+  "keywords": [
+    "jablotron",
+    "docker"
+  ],
+  "author": "Domenico Rescigno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DomResc/jablotron-puppeteer/issues"
+  },
+  "homepage": "https://github.com/DomResc/jablotron-puppeteer#readme"
+}
