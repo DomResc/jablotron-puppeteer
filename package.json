@@ -2,22 +2,42 @@
   "name": "jablotron-puppeteer",
   "version": "0.0.1",
   "description": "Automate the use of Jablotron Alarm with Puppeteer for use with Alexa, Google Home, etc.",
-  "main": "index.js",
-  "scripts": {
-    "test": ""
+  "keywords": [
+    "jablotron",
+    "javascript",
+    "nodejs",
+    "express",
+    "api",
+    "server"
+  ],
+  "homepage": "https://github.com/DomResc/jablotron-puppeteer#readme",
+  "bugs": {
+    "url": "https://github.com/DomResc/jablotron-puppeteer/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DomResc/jablotron-puppeteer.git"
   },
-  "keywords": [
-    "jablotron",
-    "docker"
-  ],
-  "author": "Domenico Rescigno",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DomResc/jablotron-puppeteer/issues"
+  "author": "Domenico Rescigno",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "deploy": "node index.js",
+    "test": "eslint --fix --format table ./"
   },
-  "homepage": "https://github.com/DomResc/jablotron-puppeteer#readme"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "puppeteer": "^5.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.5"
+  }
 }
