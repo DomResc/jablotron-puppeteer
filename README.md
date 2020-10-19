@@ -24,3 +24,16 @@ npm run deploy
 ```bash
 npm run test
 ```
+
+## How to use
+
+Send an HTTP Post request with this json body
+
+```json
+{
+    "email":"your email",
+    "password":"your password",
+    "code":"your code",
+    "zone":["1","2"] // array with your alarm zone
+}
+```
